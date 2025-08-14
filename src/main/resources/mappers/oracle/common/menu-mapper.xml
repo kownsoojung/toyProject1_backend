@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mapper namespace="nexus.jedai.pyramid.mapper.common.MenuMapper">
+
+  <!-- 메뉴 트리 조회 (재귀적으로) -->
+  <select id="getList" resultType="nexus.jedai.pyramid.DTO.common.MenuAgentDTO">
+    SELECT 
+	    id,
+	    upper_id,
+	    name,
+	    description AS path,
+	    LEVEL - 1 AS depth
+	FROM 
+	    menu_agent
+	START WITH upper_id IS NULL
+	CONNECT BY PRIOR id = upper_id
+	ORDER BY LEVEL, upper_id, id;
+  </select>
+
+</mapper>

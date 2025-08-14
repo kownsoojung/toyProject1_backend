@@ -30,4 +30,21 @@ public class MenuAgent {
     private String updateEmployeeId;
     private Date updateTime;
 
+    /* 
+     * CREATE TABLE menu_agent (
+    id                 NUMBER(10)       PRIMARY KEY,
+    center_id          NUMBER(10)       NOT NULL,
+    upper_id           NUMBER(10),
+    seq                NUMBER(10),
+    name               VARCHAR2(100 CHAR) NOT NULL,
+    menu_class         VARCHAR2(50 CHAR),
+    page_type          NUMBER(5),
+    description        VARCHAR2(200 CHAR),
+    depth              NUMBER(5),
+    use_flag           NUMBER(1)        DEFAULT 1,
+    update_employee_id VARCHAR2(50 CHAR),
+    update_time        DATE DEFAULT SYSDATE
+);
+     */
 }
+

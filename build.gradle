@@ -32,8 +32,11 @@ dependencies {
 
 	// Spring JPA + DB (MariaDB 드라이버만 사용)
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.mariadb.jdbc:mariadb-java-client:3.3.2'
-
+	
+	// Oracle JDBC 드라이버
+    implementation 'com.oracle.database.jdbc:ojdbc11:21.9.0.0'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:3.3.2'
+    
 	// Redis & Session
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.session:spring-session-data-redis'
