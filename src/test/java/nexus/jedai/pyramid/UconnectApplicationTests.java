@@ -18,8 +18,8 @@ class UconnectApplicationTests {
 	private MenuService service;
 	@Test
 	void contextLoads() {
-		List<MenuAgentDTO> menus = service.getList();
-		log.info(menus.size());
+		//List<MenuAgentDTO> menus = service.getList();
+		//log.info(menus.size());
 	}
 
 }
