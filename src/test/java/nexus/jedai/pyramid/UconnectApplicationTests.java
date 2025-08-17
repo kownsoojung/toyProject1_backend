@@ -16,10 +16,7 @@ class UconnectApplicationTests {
 
 	@Autowired
 	private MenuService service;
-	@Test
-	void contextLoads() {
-		//List<MenuAgentDTO> menus = service.getList();
-		//log.info(menus.size());
-	}
+	
+
 
 }

@@ -12,7 +12,7 @@ import nexus.jedai.pyramid.repository.common.MenuRepository;
 import nexus.jedai.pyramid.service.common.MenuService;
 
 @RestController
-@RequestMapping("/menu")
+@RequestMapping("/api/menu")
 public class MenuController {
 
     @Autowired
@@ -20,7 +20,8 @@ public class MenuController {
 
     @Autowired
     MenuRepository repository;
-    @GetMapping
+    
+    @GetMapping("/getList")
     public List<MenuAgentDTO> getList() {
         
         List<MenuAgentDTO> result = service.getList();

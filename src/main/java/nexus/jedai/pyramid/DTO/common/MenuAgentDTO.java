@@ -21,4 +21,5 @@ public class MenuAgentDTO {
     private String path;
     private int depth;
     private int useFlag;
+    private int isLeaf;
 }

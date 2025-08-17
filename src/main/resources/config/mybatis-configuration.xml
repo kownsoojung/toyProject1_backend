@@ -1,23 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>   
+<?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
-
-    <!-- 전역 프로퍼티 (SQL에서 사용 가능) -->
     <properties>
         <property name="G_EncKey" value="'nexus6@$)2%*)'" />
         <property name="g_now" value="now()" />
     </properties>
 
-    <!-- 콘솔에 SQL 출력 -->
     <settings>
-        <setting name="logImpl" value="STDOUT_LOGGING" />
-        <setting name="mapUnderscoreToCamelCase" value="true" />
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="NULL"/>
     </settings>
-
-    <!-- 필요 시 typeAlias 등록 가능 -->
-    <!--
-    <typeAliases>
-        <package name="nexus.uconnect.domain"/>
-    </typeAliases>
-    -->
-
 </configuration>
