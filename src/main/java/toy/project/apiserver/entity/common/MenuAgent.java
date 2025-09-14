@@ -1,4 +1,4 @@
-package nexus.jedai.pyramid.entity.common;
+package toy.project.apiserver.entity.common;
 
 import java.sql.Date;
 import java.time.LocalDate;

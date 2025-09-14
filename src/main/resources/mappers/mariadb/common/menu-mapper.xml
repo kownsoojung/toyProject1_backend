@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<mapper namespace="nexus.jedai.pyramid.mapper.common.MenuMapper">
+<mapper namespace="toy.project.apiserver.mapper.common.MenuMapper">
 
   <!-- 메뉴 트리 조회 (재귀적으로) -->
-  <select id="getList" resultType="nexus.jedai.pyramid.DTO.common.MenuAgentDTO">
+  <select id="getList" resultType="toy.project.apiserver.DTO.common.MenuAgentDTO">
     WITH RECURSIVE menu_tree AS (
       SELECT 
         id, 

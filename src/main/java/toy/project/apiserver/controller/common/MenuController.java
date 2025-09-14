@@ -1,4 +1,4 @@
-package nexus.jedai.pyramid.controller.common;
+package toy.project.apiserver.controller.common;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import nexus.jedai.pyramid.DTO.common.MenuAgentDTO;
-import nexus.jedai.pyramid.repository.common.MenuRepository;
-import nexus.jedai.pyramid.service.common.MenuService;
+import toy.project.apiserver.DTO.common.MenuAgentDTO;
+import toy.project.apiserver.repository.common.MenuRepository;
+import toy.project.apiserver.service.common.MenuService;
 
 @RestController
 @RequestMapping("/api/menu")

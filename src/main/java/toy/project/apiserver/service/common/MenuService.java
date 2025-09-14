@@ -1,10 +1,10 @@
-package nexus.jedai.pyramid.service.common;
+package toy.project.apiserver.service.common;
 
 import java.util.List;
 
 import jakarta.transaction.Transactional;
-import nexus.jedai.pyramid.DTO.common.MenuAgentDTO;
-import nexus.jedai.pyramid.entity.common.MenuAgent;
+import toy.project.apiserver.DTO.common.MenuAgentDTO;
+import toy.project.apiserver.entity.common.MenuAgent;
 
 @Transactional
 public interface MenuService {

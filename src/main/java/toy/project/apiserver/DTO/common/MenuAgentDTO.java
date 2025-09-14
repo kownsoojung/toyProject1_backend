@@ -1,4 +1,4 @@
-package nexus.jedai.pyramid.DTO.common;
+package toy.project.apiserver.DTO.common;
 
 import java.sql.Date;
 

@@ -1,4 +1,4 @@
-package nexus.jedai.pyramid.com.scheduler;
+package toy.project.apiserver.com.scheduler;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

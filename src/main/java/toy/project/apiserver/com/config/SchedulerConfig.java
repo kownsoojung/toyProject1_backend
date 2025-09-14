@@ -1,4 +1,4 @@
-package nexus.jedai.pyramid.com.config;
+package toy.project.apiserver.com.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

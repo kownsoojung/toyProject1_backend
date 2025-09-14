@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="nexus.jedai.pyramid.mapper.common.MenuMapper">
+<mapper namespace="toy.project.apiserver.mapper.common.MenuMapper">
 	
   <!-- 메뉴 트리 조회 (재귀적으로) -->
-  <select id="getList" resultType="nexus.jedai.pyramid.DTO.common.MenuAgentDTO">
+  <select id="getList" resultType="toy.project.apiserver.DTO.common.MenuAgentDTO">
 	SELECT 
         id,
         upper_id,
