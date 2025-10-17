@@ -7,16 +7,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import lombok.extern.log4j.Log4j2;
-import toy.project.apiserver.DTO.common.MenuAgentDTO;
-import toy.project.apiserver.service.common.MenuService;
+
 
 @SpringBootTest
 @Log4j2
 class UconnectApplicationTests {
 
-	@Autowired
-	private MenuService service;
-	
 
 
 }
